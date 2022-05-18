@@ -44,7 +44,7 @@ def decrypt():
                     
                 
                 idx=alphabet.index(w)
-                nidx=idx-i
+                nidx=idx+i
                 nidx=nidx%26
                 pt+=alphabet[nidx]
         
